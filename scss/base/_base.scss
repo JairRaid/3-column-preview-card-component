@@ -1,0 +1,39 @@
+@use "../abstracts" as *;
+
+body {
+  font-family: $ff-base;
+}
+
+.page-shell {
+  min-block-size: 100vh;
+  inline-size: 100%;
+  padding-inline: $spacing-300;
+  padding-block: $spacing-1000;
+
+  transition: padding-block $transition;
+}
+
+:focus-visible {
+  outline: 4px solid $black-50;
+  outline-offset: 2px;
+}
+
+@media (min-width: 48rem) {
+  .page-shell {
+    padding-inline: $spacing-1000;
+  }
+}
+
+@media (min-width: 64rem) {
+  .page-shell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vehicles-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-inline-size: 57.5625rem;
+  }
+}

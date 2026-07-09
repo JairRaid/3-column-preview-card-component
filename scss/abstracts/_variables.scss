@@ -1,0 +1,59 @@
+// Colors
+$white: hsl(0 100% 100%);
+$black: hsl(0 0% 0%);
+$black-50: hsl(0 0% 0% / 0.5);
+$gray-100: hsl(0 0% 95%);
+$green-950: hsl(179 100% 13%);
+$green-500: hsl(170 76% 41%);
+$cyan-800: hsl(184 100% 22%);
+$cyan-500: hsl(184 67% 45%);
+$gold-500: hsl(31 77% 52%);
+$gold-200: hsl(42 100% 73%);
+
+// Font families
+$ff-base:
+  "Big Shoulders",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  BlinkMacSystemFont,
+  sans-serif;
+$ff-lexend:
+  "Lexend Deca",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  BlinkMacSystemFont,
+  sans-serif;
+// Font weights
+$fw-bold: 700;
+$fw-regular: 400;
+
+// Font sizes
+$fs-100: 0.9375rem;
+$fs-200: 2.5rem;
+
+// Line height
+$lh-120: 1.2;
+$lh-165: 1.65;
+
+// Letter spacings
+$ls-0: 0;
+
+// Spacing
+$spacing-0: 0;
+$spacing-100: 0.5rem;
+$spacing-300: 1.5rem;
+$spacing-400: 2rem;
+$spacing-500: 2.5rem;
+$spacing-600: 3rem;
+$spacing-1000: 5rem;
+
+// Border radius
+$radius-pill: 624.9375rem;
+
+// Breakpoints
+$bp-md: 768px;
+$bp-lg: 1024px;
+
+$transition: 180ms ease;

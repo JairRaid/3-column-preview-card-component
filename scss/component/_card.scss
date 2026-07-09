@@ -1,0 +1,55 @@
+@use "../abstracts" as *;
+
+.card {
+  padding: $spacing-600;
+
+  .card__title {
+    font-weight: $fw-bold;
+    font-size: $fs-200;
+    line-height: $lh-120;
+    letter-spacing: $ls-0;
+    color: $white;
+    margin-block-start: $spacing-400;
+  }
+
+  .card__description {
+    font-weight: 400;
+    font-size: $fs-100;
+    line-height: $lh-165;
+    letter-spacing: $ls-0;
+    font-family: $ff-lexend;
+    color: $white;
+    opacity: 75%;
+    margin-block-start: $spacing-300;
+
+    max-inline-size: 14.375rem;
+  }
+
+  .card__button {
+    margin-block-start: $spacing-300;
+  }
+}
+
+@media (min-width: 48rem) {
+  .card {
+    .card__description {
+      max-inline-size: 28rem;
+    }
+  }
+}
+
+@media (min-width: 64rem) {
+  .card {
+    .card__title {
+      margin-block-start: $spacing-500;
+    }
+
+    .card__description {
+      max-inline-size: none;
+    }
+
+    .card__button {
+      margin-block-start: $spacing-1000;
+    }
+  }
+}
