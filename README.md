@@ -28,8 +28,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/JairRaid/3-column-preview-card-component
+- Live Site URL: https://jairraid.github.io/3-column-preview-card-component/
 
 ## My process
 
