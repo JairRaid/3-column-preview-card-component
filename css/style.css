@@ -154,7 +154,7 @@ button {
   letter-spacing: 0;
   font-family: "Lexend Deca", system-ui, -apple-system, "Segoe UI", BlinkMacSystemFont, sans-serif;
   color: hsl(0, 100%, 100%);
-  opacity: 75%;
+  opacity: 0.75;
   margin-block-start: 1.5rem;
   max-inline-size: 14.375rem;
 }
