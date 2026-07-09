@@ -18,13 +18,13 @@ body {
   outline-offset: 2px;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: $bp-md) {
   .page-shell {
     padding-inline: $spacing-1000;
   }
 }
 
-@media (min-width: 64rem) {
+@media (min-width: $bp-lg) {
   .page-shell {
     display: flex;
     justify-content: center;
